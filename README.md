@@ -15,7 +15,7 @@ Navigate to `https://localhost:5001` (or the port shown in console output).
 
 ### Server Side (C# / ASP.NET Core)
 
-**Program.cs** — Minimal hosting setup. No Startup class — uses the modern top-level statement pattern. Registers services, enables static files, and maps controllers.
+**Program.cs** — Registers services, enables static files, and maps controllers.
 
 **Services/FileSystemService.cs** — Core business logic. All file system I/O is encapsulated here, separated from the HTTP layer. Key design decisions:
 

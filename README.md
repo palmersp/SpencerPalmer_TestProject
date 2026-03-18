@@ -9,7 +9,7 @@ A file and directory browsing single-page application built with ASP.NET Core 10
 dotnet run
 ```
 
-Navigate to `https://localhost:5001` (or the port shown in console output).
+Navigate to `https://localhost:7146` (or the port shown in console output).
 
 ## Architecture
 
